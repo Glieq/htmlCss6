@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: #222222;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-logo-form {
+    width: 111px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-search-link {
+    align-self: flex-end;
+}
+
+.header-menu-interface {
+    display: flex;
+    justify-content: space-between;
+    width: 159px;
+    align-items: center;
+}
+
+.header-checkbox:checked+.header-burger-menu {
+    background-color: #FFFFFF;
+    display: block;
+}
+
+.header-checkbox {
+    display: none;
+}
+
+.header-burger-menu {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    width: 232px;
+    height: 634px;
+    box-shadow: 6px 4px 35px 0 rgb(0, 0, 0, 0.21);
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    display: none;
+}
+
+.burger-menu-heading {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #000000;
+    display: block;
+}
+
+.burger-menu-container {
+    padding: 32px 0 0 33px;
+}
+
+.burger-menu-subtitle-link {
+    padding: 24px 0 1px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-decoration: none;
+    color: #F16D7F;
+    display: inline-block;
+}
+
+.burger-menu-list {
+    list-style-type: none;
+    padding: 0 0 0 21.5px;
+}
+
+.burger-menu-list-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #6F6E6E;
+    text-decoration: none;
+    padding-top: 11px;
+    display: inline-block;
+}
+
+.header-logo-link:active {
+    color: none;
+    text-decoration: none;
+}
+
+.main-preview {
+    width: 100%;
+    height: 764px;
+    background-image: url(img/man-preview.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #F1E4E6;
+}
+
+.preview-heading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #222222;
+}
+
+.preview-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 44.4px;
+    color: #222222;
+}
+
+.preview-subtitle-active {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 44.4px;
+    color: #F16D7F;
+}
+
+.main-preview-container-text {
+    position: absolute;
+    top: 290px;
+    left: 55.75%;
+    display: inline-block;
+}
+
+.main-preview-container-text svg {
+    position: absolute;
+    left: -24px;
+    top: 6px;
+}
+
+.offer-cards {
+    width: 1140px;
+    margin: 65px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offer-cards img:last-child {
+    margin-top: 30px;
+}
+
+.products-title {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main-fetured-heading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    margin: 96px auto 0 auto;
+    text-align: center;
+}
+
+.main-fetured-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #9F9F9F;
+    margin: 6px auto 0 auto;
+    text-align: center;
+}
+
+.products-cards {
+    width: 1140px;
+    margin: 48px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.margin-25 {
+    margin-top: 25px;
+}
+
+.card {
+    width: 360px;
+    height: 587px;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card-heading {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.6px;
+    color: #000000;
+    padding: 24px 0 0 16px;
+}
+
+.card-description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #5D5D5D;
+    padding: 16px 0 0 16px;
+}
+
+.card-price {
+    color: #F16D7F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    padding: 16px 0 0 16px;
+}
+
+.card:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 360px;
+    height: 420px;
+    background-color: #3A3838DB;
+    display: none;
+}
+
+.card-hover-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    width: 139px;
+    height: 44px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.card-hover-link svg {
+    padding-right: 11px;
+}
+
+.link-all-products {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #F26376;
+    background-color: #FFFFFF;
+    padding: 15px 39px;
+    border: 1px solid #FF6A6A;
+    display: inline-block;
+    margin: 48.5px auto 60.5px auto;
+}
+
+.link-all-products:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
