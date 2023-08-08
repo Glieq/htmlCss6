@@ -65,6 +65,7 @@ body {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     display: none;
+    z-index: 3;
 }
 
 .burger-menu-heading {
@@ -118,6 +119,7 @@ body {
     background-repeat: no-repeat;
     background-position: left;
     background-color: #F1E4E6;
+    position: relative;
 }
 
 .preview-heading {
@@ -290,4 +292,69 @@ body {
 .link-all-products:hover {
     background-color: #F16D7F;
     color: #FFFFFF;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        height: 74px;
+    }
+    .header-container {
+        max-width: 960px;
+        margin: 0 32px;
+    }
+    .main-preview {
+        height: 367px;
+        background-image: url(img/index-man-mini.png);
+    }
+    .main-preview-container-text {
+        top: 138px;
+    }
+    .preview-heading {
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 52.8px;
+    }
+    .preview-subtitle {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+    .preview-subtitle-active {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+    .main-preview-container-text svg {
+        top: 0;
+    }
+    .offer-cards {
+        max-width: 736px;
+    }
+    .offer-cards img {
+        max-width: 232px;
+    }
+    .offer-cards img:last-child {
+        max-width: 736px;
+        margin-top: 20px;
+    }
+    .main-fetured-heading {
+        margin-top: 110px;
+    }
+    .products-cards {
+        max-width: 736px;
+        margin-top: 57px;
+    }
+    .link-all-products {
+        margin-top: 33px;
+        margin-bottom: 71px;
+    }
+    .products-title {
+        max-width: 736px;
+    }
+    .margin-25 {
+        margin-top: 0;
+    }
+    .card {
+        margin-top: 16px;
+    }
 }
