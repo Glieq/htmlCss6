@@ -121,7 +121,9 @@ body {
     background-color: #F1E4E6;
     position: relative;
 }
-
+.offer-card-mini {
+    display: none;
+}
 .preview-heading {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -356,5 +358,80 @@ body {
     }
     .card {
         margin-top: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .account-header-link {
+        display: none;
+    }
+    .backet-header-link {
+        display: none;
+    }
+    .header-menu-interface {
+        width: auto;
+    }
+    .header-container {
+        max-width: 343px;
+        margin: 0 16px;
+    }
+    .main-preview {
+        background-image: none;
+        height: 363px;
+    }
+    .preview-heading {
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 45.6px;
+    }
+    .preview-subtitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .preview-subtitle-active {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .main-preview-container-text svg {
+        height: 61px;
+    }
+    .main-preview-container-text {
+        top: 148px;
+        left: 20%;
+    }
+    .offer-cards {
+        max-width: 375px;
+        margin-top: 32px;
+    }
+    .offer-cards img {
+        max-width: 343px;
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+    .offer-cards img:last-child {
+        display: none;
+    }
+    .offer-card-mini {
+        display: inline-block;
+    }
+    .products-title {
+        max-width: 375px;
+    }
+    .main-fetured-heading {
+        margin-top: 64px;
+    }
+    .products-cards {
+        max-width: 375px;
+        margin-top: 48px;
+    }
+    .card {
+        margin-left: 8px;
+        margin-top: 16px;
+        margin-right: 8px;
+    }
+    .link-all-products {
+        margin-top: 41px;
+        margin-bottom: 85px;
     }
 }
