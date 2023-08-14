@@ -362,6 +362,7 @@ body {
     line-height: 40.13px;
     color: #222224;
     text-align: center;
+    margin-top: 150px;
 }
 
 .subscribe-subtitle {
@@ -411,6 +412,7 @@ body {
 
 .subscribe-form {
     display: flex;
+    margin-top: 32px;
 }
 
 .subscribe-form input:placeholder-shown {
@@ -419,6 +421,51 @@ body {
     line-height: 16.8px;
     color: #222224;
     font-family: 'Lato', sans-serif;
+}
+
+.footer {
+    background-color: #222224;
+    width: 100%;
+    height: 79px;
+}
+
+.footer-container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #FBFBFB;
+    margin-top: 30px;
+}
+
+.social-block {
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-block:hover {
+    background-color: #F16D7F;
+}
+
+.social-block:hover .social-svg path {
+    fill: #FFFFFF;
+}
+
+.footer-socials-block {
+    display: flex;
+    width: 148px;
+    justify-content: space-between;
+    margin-top: 24px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -499,6 +546,50 @@ body {
 
     .card {
         margin-top: 16px;
+    }
+
+    .services {
+        height: 610px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+    }
+
+    .service-description {
+        margin-top: 48px;
+    }
+
+    .service-heading {
+        margin-top: 28px;
+    }
+
+    .subscribe-form-block {
+        height: 693px;
+        background-image: url(img/article-img-786tablet.png);
+    }
+
+    .subscribe-form-container {
+        width: 360px;
+        flex-direction: column;
+    }
+
+    .subscribe-img-and-subtitle {
+        margin-top: 64px;
+    }
+
+    .subscribe-form {
+        margin-top: 27px;
+    }
+
+    .subscribe-heading {
+        margin-top: 48px;
+    }
+
+    .footer-container {
+        width: 704px;
     }
 }
 
@@ -593,5 +684,79 @@ body {
     .link-all-products {
         margin-top: 41px;
         margin-bottom: 85px;
+    }
+
+    .services {
+        height: 610px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        max-width: 348px;
+    }
+
+    .service-description {
+        max-width: 348px;
+        margin-top: 48px;
+    }
+
+    .service-heading {
+        margin-top: 27px;
+    }
+
+    .service-subtitle {
+        margin-top: 15px;
+    }
+
+    .subscribe-form-block {
+        background-image: url(img/article-img-786tablet.png);
+        height: 550px;
+    }
+
+    .subscribe-form-container {
+        max-width: 343px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe-img-and-subtitle {
+        margin-top: 64px;
+    }
+
+    .subscribe-heading {
+        margin-top: 59px;
+    }
+
+    .subscribe-form {
+        margin-top: 22px;
+    }
+
+    .subscribe-heading {
+        margin-top: 48px;
+        line-height: 36.77px;
+    }
+
+    .subscribe-subtitle {
+        font-size: 14px;
+        line-height: 21.45px;
+    }
+
+    .footer {
+        height: 143px;
+    }
+
+    .footer-container {
+        max-width: 251px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-socials-block {
+        margin-top: 43px;
+    }
+
+    .footer-subtitle {
+        margin-top: 40px;
     }
 }
