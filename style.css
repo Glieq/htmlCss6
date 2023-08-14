@@ -386,6 +386,11 @@ body {
     height: 49px;
 }
 
+.subscribe-form input:focus-visible {
+    outline: none;
+    border: none;
+}
+
 .subscribe-heading-and-form {
     display: flex;
     flex-direction: column;
